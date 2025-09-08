@@ -1,0 +1,22 @@
+baseURL = 'https://junsunglee.com'
+languageCode = 'en-us'
+title = 'Jun Sung Lee'
+theme = 'PaperMod'
+
+[params]
+  author = "Jun Sung Lee"
+  description = "Personal website"
+  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 30
